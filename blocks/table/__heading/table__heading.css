@@ -1,0 +1,12 @@
+.table__heading {
+  font-size: 24px;
+  line-height: 1.15;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 0 20px;
+  padding-bottom: 20px;
+}
+
+.table__heading:last-of-type {
+  margin-bottom: 0;
+}
