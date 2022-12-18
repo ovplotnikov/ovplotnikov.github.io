@@ -1,8 +1,0 @@
-.video__iframes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin: 0 auto;
-  max-width: 1050px;
-  transform: translateY(50px);
-}

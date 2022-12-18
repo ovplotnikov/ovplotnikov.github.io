@@ -1,0 +1,14 @@
+.place__paragraph {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 163%;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 0 0;
+    /* margin-top: 0.5em; */
+    /* Отступ сверху */
+    margin-bottom: 1.3em;
+    /* Отступ снизу */
+}
