@@ -5,3 +5,27 @@
     width: calc(100% - 148px * 2);
     margin: 0 auto;
 }
+
+@media (max-width: 1024px) {
+    .places {
+        width: calc(100% - 48px * 2);
+    }
+}
+
+@media (max-width: 768px) {
+    .places {
+        width: calc(100% - 24px * 2);
+        grid-row-gap: 174x;
+        padding: 88px 0 90px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .places {
+        width: 100%;
+        grid-row-gap: 50px;
+        padding: 64px 0 66px;
+
+    }
+}

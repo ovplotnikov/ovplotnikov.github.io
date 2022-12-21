@@ -4,3 +4,23 @@
     width: calc(100% - 148px * 2);
     margin: 0 auto;
 }
+
+
+@media (max-width: 1024px) {
+    .lead {
+        width: calc(100% - 48px * 2);
+    }
+}
+
+@media (max-width: 768px) {
+    .lead {
+        width: 100%;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .lead {
+        width: calc(100% - 2px * 2);
+    }
+}

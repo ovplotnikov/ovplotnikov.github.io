@@ -6,14 +6,8 @@
     -ms-text-size-adjust: 100%;
     -moz-text-size-adjust: 100%;
     text-rendering: optimizeLegibility;
-    max-width: 1280px;
     font-family: "Inter", "Arial", sans-serif;
     align-self: center;
-
-}
-
-@media screen and (min-width: 1281px) {
-    .root {
-        margin: 0 auto;
-    }
+    max-width: 1280px;
+    margin: 0 auto;
 }

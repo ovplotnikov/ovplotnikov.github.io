@@ -4,5 +4,23 @@
     margin: 0 auto;
     padding-top: 92px;
     padding-bottom: 24px;
-    max-width: 1184px;
+    width: calc(100% - 48px * 2);
+}
+
+
+@media (max-width:768px) {
+    .footer {
+        width: calc(100% - 24px * 2);
+        padding-top: 88px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .footer {
+        width: calc(100% - 16px * 2);
+        padding-top: 64px;
+        flex-direction: column;
+        justify-content: flex-start;
+    }
 }

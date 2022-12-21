@@ -3,3 +3,22 @@
     object-fit: cover;
     margin: 64px 0 0 0;
 }
+
+@media (max-width: 1024px) {
+    .lead__image {
+        margin: 56px 0 0 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .lead__image {
+        margin: 56px 0 0 0;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .lead__image {
+        margin: 40px 0 0 0;
+    }
+}

@@ -1,7 +1,8 @@
 .cover {
     position: relative;
     display: flex;
-    max-width: 1184px;
+    /* max-width: 1184px; */
+    width: calc(100% - 48px * 2);
     min-height: 740px;
     flex-direction: column;
     background-image: url("../../images/cover-trains.jpg");
@@ -13,4 +14,26 @@
     justify-content: center;
     text-decoration: none;
     color: #000;
+}
+
+@media (max-width: 1024px) {
+    .cover {
+        width: 100%;
+        min-height: 640px;
+    }
+}
+
+@media (max-width:480px) {
+    .cover {
+        width: 100%;
+        min-height: 740px;
+
+    }
+}
+
+@media (max-width: 320px) {
+    .cover {
+        width: 100%;
+        min-height: 200px;
+    }
 }
