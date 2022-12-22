@@ -27,7 +27,8 @@
 
 @media (max-width: 560px) {
     .lead__title {
-        font-size: 74px;
+        font-size: 52px;
+        line-height: 70px;
 
     }
 }
