@@ -21,6 +21,6 @@
 
 @media (max-width: 320px) {
     .lead {
-        width: calc(100% - 2px * 2);
+        width: 100%;
     }
 }

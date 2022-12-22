@@ -19,9 +19,21 @@
     margin-bottom: 0;
 }
 
+@media (max-width: 768px) {
+    .place__paragraph {
+        font-size: 16px;
+    }
+}
+
 @media (max-width: 320px) {
     .place__paragraph {
         margin-left: 16px;
         margin-right: 16px;
+        font-size: 16px;
+        margin-bottom: 1.6em;
     }
+
+    /* .place__paragraph:last-of-type {
+        margin-bottom: -20px;
+    } */
 }
