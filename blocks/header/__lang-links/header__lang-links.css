@@ -13,6 +13,11 @@
     margin: 0 0 0 0;
 }
 
+@media (max-width: 560px) {
+    .header__lang-links {
+        font-size: 22px;
+    }
+}
 
 @media (max-width: 320px) {
     .header__lang-links {

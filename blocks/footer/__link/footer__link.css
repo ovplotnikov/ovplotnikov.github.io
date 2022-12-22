@@ -11,6 +11,16 @@
     padding: 0;
 }
 
+@media (max-width: 560px) {
+    .footer__link {
+        padding-bottom: 32px;
+        font-size: 24px;
+        line-height: 24px;
+        margin-right: 0;
+
+    }
+}
+
 @media (max-width: 320px) {
     .footer__link {
         padding-bottom: 32px;
@@ -19,8 +29,4 @@
         margin-right: 0;
 
     }
-
-    /* .footer__link:first-of-type {
-        margin-top: 0;
-    } */
 }

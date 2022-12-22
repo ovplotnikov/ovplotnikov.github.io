@@ -7,6 +7,15 @@
 }
 
 
+@media (max-width: 560px) {
+    .footer__links {
+        flex-direction: column;
+        min-height: 247px;
+        justify-content: space-between;
+
+    }
+}
+
 @media (max-width: 320px) {
     .footer__links {
         flex-direction: column;
