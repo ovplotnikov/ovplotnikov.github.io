@@ -18,9 +18,3 @@
 
     }
 }
-
-@media (max-width: 320px) {
-    .lead {
-        width: 100%;
-    }
-}

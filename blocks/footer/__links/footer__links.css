@@ -7,7 +7,7 @@
 }
 
 
-@media (max-width: 560px) {
+@media (max-width: 600px) {
     .footer__links {
         flex-direction: column;
         min-height: 247px;
