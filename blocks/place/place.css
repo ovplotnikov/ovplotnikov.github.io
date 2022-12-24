@@ -23,7 +23,6 @@
 
 @media (max-width: 560px) {
     .place {
-        grid-template-columns: calc((340/720)*100%) 1fr;
         grid-column-gap: 28px;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr;
