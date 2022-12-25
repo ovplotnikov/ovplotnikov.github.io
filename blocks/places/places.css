@@ -15,9 +15,9 @@
 @media (max-width: 768px) {
     .places {
         width: calc(100% - 24px * 2);
-        grid-row-gap: 73px;
+        grid-row-gap: 74px;
         padding-top: 90px;
-        padding-bottom: 70px;
+        padding-bottom: 91px;
     }
 }
 
@@ -26,5 +26,6 @@
         width: 100%;
         grid-row-gap: 52px;
         padding-top: 64px;
+        padding-bottom: 65px;
     }
 }

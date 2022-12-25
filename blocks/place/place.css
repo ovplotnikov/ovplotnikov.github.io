@@ -16,8 +16,8 @@
 
 @media (max-width: 768px) {
     .place {
-        grid-template-columns: calc((330/720)*100%) 1fr;
-        grid-column-gap: 36px;
+        grid-template-columns: calc((340/720)*100%) 1fr;
+        grid-column-gap: 27px;
     }
 }
 
