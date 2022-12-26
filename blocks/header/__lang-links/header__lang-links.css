@@ -1,22 +1,10 @@
 .header__lang-links {
     list-style-type: none;
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
-    text-align: right;
     padding: 0;
     margin: 0;
     margin-right: 18px;
 }
 
-@media (max-width: 560px) {
-    .header__lang-links {
-        font-size: 22px;
-    }
-}
-
-@media (max-width: 400px) {
-    .header__lang-links {
-        font-size: 18px;
-    }
+.header__lang-links:last-of-type {
+    margin-right: 0;
 }
