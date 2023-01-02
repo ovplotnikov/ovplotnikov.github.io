@@ -1,0 +1,10 @@
+.profile__info {
+    flex-grow: 1;
+    display: grid;
+    justify-self: center;
+    align-self: center;
+    grid-template-columns: max-content 1fr;
+    grid-template-rows: max-content max-content;
+    margin: 0;
+    padding: 0;
+}
